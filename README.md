@@ -113,7 +113,6 @@ Each visualization was designed to answer a specific business question.
 * Data Modelling
 * DAX Measures
 * Interactive Dashboards
-* Slicers & Filters
 * Data Visualization
 
 ### Analytics
@@ -130,119 +129,86 @@ Each visualization was designed to answer a specific business question.
 
 ## 1. Are Our Products Competitively Priced?
 
-**Visualization**
 
-
-* Clustered Column Chart: **Average Product Price vs Competitor Price**
+<img width="416" height="281" alt="image" src="https://github.com/user-attachments/assets/2f857938-414e-4c27-8eee-633bea0e3c2c" />
 
 ### Findings
-
-The comparison between the store's average product price and the average competitor price indicates that pricing remains generally competitive across the products analyzed. Any noticeable price differences highlight areas where the business may be pricing above or below competitors.
+The comparison between the store's average product price and the average competitor price indicates that pricing remains generally competitive across the products analyzed.
 
 ### Discussion
-
 Pricing is one of the strongest determinants of purchasing behaviour. Products priced significantly higher than competitors may discourage price-sensitive customers, while consistently lower prices could reduce profitability. Monitoring competitor pricing enables the business to maintain a balance between competitiveness and profit margins.
 
 ### Business Recommendation
-
 * Continuously benchmark product prices against competitors.
 * Adjust prices strategically based on market conditions and customer demand.
 * Review products with large price differences to determine whether premium pricing is justified.
 
----
 
 ## 2. Are Discounts Attracting Customers?
 
-**Visualization**
-
-* Clustered Column Chart: **Impact of Discounts on Customer Footfall**
+<img width="502" height="356" alt="image" src="https://github.com/user-attachments/assets/090429fc-a809-4736-a766-871c6d6cac57" />
 
 ### Findings
-
 The analysis shows that average customer footfall generally increases as discount levels increase. Higher discount ranges attract more visitors, suggesting that customers respond positively to promotional pricing.
 
 ### Discussion
-
 Discounts encourage customer purchases by reducing the perceived cost of products. However, increasing discounts indefinitely may eventually reduce profitability. The objective is to identify the discount level that maximizes customer traffic while maintaining healthy profit margins.
 
 ### Business Recommendation
-
 * Continue using discounts to increase customer traffic.
 * Identify the optimal discount range that balances increased customer visits with profitability.
 * Regularly evaluate promotional campaigns to avoid unnecessary discounting.
 
----
 
 ## 3. Are Promotional Campaigns Increasing Customer Visits?
 
-**Visualization**
-
-* Column Chart: **Impact of Promotion Intensity on Customer Footfall**
+<img width="684" height="348" alt="image" src="https://github.com/user-attachments/assets/0b941d9e-4929-4435-ab15-0d9a0ca56e27" />
 
 ### Findings
-
 Higher promotion intensity is associated with increased customer footfall, indicating that stronger promotional activities encourage more customers to visit the store.
 
 ### Discussion
-
 Promotional campaigns improve product awareness and customer engagement. While stronger promotions appear effective, they should be monitored to ensure that additional marketing expenditure produces measurable improvements in customer traffic.
 
 ### Business Recommendation
-
 * Continue investing in promotional activities with demonstrated success.
 * Measure campaign performance regularly using customer traffic and other business KPIs.
 * Focus on promotions that generate the highest return on investment.
 
----
 
 ## 4. Is Advertising Spending Effective?
 
-**Visualizations**
-
-* Line & Clustered Column Chart: **Advertising Spend vs Customer Traffic and Satisfaction**
-* KPI Card: **Advertising Effectiveness**
+<img width="647" height="346" alt="image" src="https://github.com/user-attachments/assets/90cb9dae-d529-4e92-9bba-7f5be62b8cfd" />
 
 ### Findings
-
 The dashboard indicates that increased advertising expenditure is generally associated with higher customer footfall and improved customer sentiment. The Advertising Effectiveness KPI further measures how efficiently advertising spending attracts customer visits.
 
 ### Discussion
-
 Advertising plays a significant role in driving customer awareness and store traffic. While higher advertising expenditure appears beneficial, increasing budgets indefinitely may not always generate proportional increases in customer visits. Businesses should continuously evaluate advertising performance to ensure efficient use of marketing resources.
 
 ### Business Recommendation
-
 * Allocate advertising budgets to campaigns that consistently generate customer traffic.
 * Monitor advertising effectiveness using customer visits and customer sentiment.
 * Review underperforming campaigns and optimize marketing strategies.
 
----
 
 ## 5. Is Inventory Meeting Customer Demand?
 
-**Visualizations**
-
-* Line & Clustered Column Chart: **Inventory Levels vs Customer Demand and Satisfaction**
-* KPI Card: **Average Stock Level**
+<img width="562" height="331" alt="image" src="https://github.com/user-attachments/assets/71657adf-2850-4cf5-98f3-fa6ae863de04" />
 
 ### Findings
-
 The analysis suggests that stores with higher inventory levels generally experience stronger customer demand and improved customer satisfaction. Maintaining adequate inventory appears to support customer purchasing behaviour.
 
 ### Discussion
-
 Inventory shortages may result in lost sales and dissatisfied customers, while excessive inventory increases storage costs. Maintaining an optimal inventory level helps ensure product availability while minimizing unnecessary inventory holding costs.
 
 ### Business Recommendation
-
 * Maintain sufficient inventory levels to satisfy customer demand.
 * Use inventory planning techniques to reduce stock shortages.
 * Continuously monitor inventory performance alongside customer demand indicators.
 
----
 
 # Overall Business Insights
-
 The dashboard demonstrates that pricing strategies, discounts, promotions, advertising investment, and inventory management all contribute to customer behaviour and overall retail performance.
 
 Key observations include:
@@ -252,9 +218,7 @@ Key observations include:
 * Promotional campaigns increase store visits.
 * Advertising positively influences customer traffic and customer sentiment.
 * Maintaining adequate inventory improves customer satisfaction and supports customer demand.
-
 These findings provide decision-makers with actionable insights for improving pricing strategies, optimizing marketing investments, and strengthening operational performance.
-
 
 
 # What Next?
