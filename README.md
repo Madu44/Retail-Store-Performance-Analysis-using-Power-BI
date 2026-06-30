@@ -94,17 +94,13 @@ Interactive dashboards were created using:
 * KPI Cards
 * Clustered Column Charts
 * Line & Clustered Column Charts
-* Slicers
 * DAX Measures
-
 Each visualization was designed to answer a specific business question.
 
----
 
 # Skills Demonstrated
 
 ### Business Intelligence
-
 * Dashboard Design
 * KPI Development
 * Business Problem Solving
@@ -112,7 +108,6 @@ Each visualization was designed to answer a specific business question.
 * Performance Analysis
 
 ### Power BI
-
 * Data Cleaning
 * Data Transformation
 * Data Modelling
@@ -122,7 +117,6 @@ Each visualization was designed to answer a specific business question.
 * Data Visualization
 
 ### Analytics
-
 * Exploratory Data Analysis (EDA)
 * Comparative Analysis
 * Pricing Analysis
@@ -130,71 +124,143 @@ Each visualization was designed to answer a specific business question.
 * Customer Behaviour Analysis
 * Inventory Analysis
 
----
 
 # Results and Business Recommendations
+# Results and Discussion
 
-## Pricing Strategy
+## 1. Are Our Products Competitively Priced?
 
-Average product prices were compared with competitor prices to evaluate pricing competitiveness.
+**Visualization**
 
-**Recommendation**
 
-* Continuously monitor competitor pricing.
-* Adjust prices strategically to remain competitive while maintaining profitability.
+* Clustered Column Chart: **Average Product Price vs Competitor Price**
 
----
+### Findings
 
-## Discount Strategy
+The comparison between the store's average product price and the average competitor price indicates that pricing remains generally competitive across the products analyzed. Any noticeable price differences highlight areas where the business may be pricing above or below competitors.
 
-Customer footfall increased across higher discount ranges, suggesting that discounts positively influence customer traffic.
+### Discussion
 
-**Recommendation**
+Pricing is one of the strongest determinants of purchasing behaviour. Products priced significantly higher than competitors may discourage price-sensitive customers, while consistently lower prices could reduce profitability. Monitoring competitor pricing enables the business to maintain a balance between competitiveness and profit margins.
 
-* Continue using discounts as a customer acquisition strategy.
-* Identify the optimal discount range that maximizes customer traffic without significantly reducing profit margins.
+### Business Recommendation
 
----
-
-## Promotion Effectiveness
-
-Stores with higher promotion intensity generally experienced increased customer footfall.
-
-**Recommendation**
-
-* Invest in promotional campaigns that demonstrate measurable improvements in customer traffic.
-* Evaluate promotion performance regularly to optimize marketing budgets.
+* Continuously benchmark product prices against competitors.
+* Adjust prices strategically based on market conditions and customer demand.
+* Review products with large price differences to determine whether premium pricing is justified.
 
 ---
 
-## Advertising Performance
+## 2. Are Discounts Attracting Customers?
 
-Advertising expenditure showed a positive relationship with customer traffic and customer sentiment.
+**Visualization**
 
-**Recommendation**
+* Clustered Column Chart: **Impact of Discounts on Customer Footfall**
 
-* Maintain investment in advertising channels that generate measurable customer engagement.
-* Track advertising effectiveness using customer traffic and sentiment metrics to optimize future campaigns.
+### Findings
+
+The analysis shows that average customer footfall generally increases as discount levels increase. Higher discount ranges attract more visitors, suggesting that customers respond positively to promotional pricing.
+
+### Discussion
+
+Discounts encourage customer purchases by reducing the perceived cost of products. However, increasing discounts indefinitely may eventually reduce profitability. The objective is to identify the discount level that maximizes customer traffic while maintaining healthy profit margins.
+
+### Business Recommendation
+
+* Continue using discounts to increase customer traffic.
+* Identify the optimal discount range that balances increased customer visits with profitability.
+* Regularly evaluate promotional campaigns to avoid unnecessary discounting.
 
 ---
 
-## Inventory Management
+## 3. Are Promotional Campaigns Increasing Customer Visits?
 
-Higher inventory levels were associated with stronger customer demand and improved customer satisfaction.
+**Visualization**
 
-**Recommendation**
+* Column Chart: **Impact of Promotion Intensity on Customer Footfall**
 
-* Maintain adequate stock levels to reduce the risk of lost sales.
-* Use inventory planning to align stock availability with expected customer demand.
+### Findings
+
+Higher promotion intensity is associated with increased customer footfall, indicating that stronger promotional activities encourage more customers to visit the store.
+
+### Discussion
+
+Promotional campaigns improve product awareness and customer engagement. While stronger promotions appear effective, they should be monitored to ensure that additional marketing expenditure produces measurable improvements in customer traffic.
+
+### Business Recommendation
+
+* Continue investing in promotional activities with demonstrated success.
+* Measure campaign performance regularly using customer traffic and other business KPIs.
+* Focus on promotions that generate the highest return on investment.
 
 ---
+
+## 4. Is Advertising Spending Effective?
+
+**Visualizations**
+
+* Line & Clustered Column Chart: **Advertising Spend vs Customer Traffic and Satisfaction**
+* KPI Card: **Advertising Effectiveness**
+
+### Findings
+
+The dashboard indicates that increased advertising expenditure is generally associated with higher customer footfall and improved customer sentiment. The Advertising Effectiveness KPI further measures how efficiently advertising spending attracts customer visits.
+
+### Discussion
+
+Advertising plays a significant role in driving customer awareness and store traffic. While higher advertising expenditure appears beneficial, increasing budgets indefinitely may not always generate proportional increases in customer visits. Businesses should continuously evaluate advertising performance to ensure efficient use of marketing resources.
+
+### Business Recommendation
+
+* Allocate advertising budgets to campaigns that consistently generate customer traffic.
+* Monitor advertising effectiveness using customer visits and customer sentiment.
+* Review underperforming campaigns and optimize marketing strategies.
+
+---
+
+## 5. Is Inventory Meeting Customer Demand?
+
+**Visualizations**
+
+* Line & Clustered Column Chart: **Inventory Levels vs Customer Demand and Satisfaction**
+* KPI Card: **Average Stock Level**
+
+### Findings
+
+The analysis suggests that stores with higher inventory levels generally experience stronger customer demand and improved customer satisfaction. Maintaining adequate inventory appears to support customer purchasing behaviour.
+
+### Discussion
+
+Inventory shortages may result in lost sales and dissatisfied customers, while excessive inventory increases storage costs. Maintaining an optimal inventory level helps ensure product availability while minimizing unnecessary inventory holding costs.
+
+### Business Recommendation
+
+* Maintain sufficient inventory levels to satisfy customer demand.
+* Use inventory planning techniques to reduce stock shortages.
+* Continuously monitor inventory performance alongside customer demand indicators.
+
+---
+
+# Overall Business Insights
+
+The dashboard demonstrates that pricing strategies, discounts, promotions, advertising investment, and inventory management all contribute to customer behaviour and overall retail performance.
+
+Key observations include:
+
+* Competitive pricing supports market positioning.
+* Discounts successfully attract additional customer traffic.
+* Promotional campaigns increase store visits.
+* Advertising positively influences customer traffic and customer sentiment.
+* Maintaining adequate inventory improves customer satisfaction and supports customer demand.
+
+These findings provide decision-makers with actionable insights for improving pricing strategies, optimizing marketing investments, and strengthening operational performance.
+
+
 
 # What Next?
-
 Future enhancements could further strengthen the analysis by incorporating additional retail metrics.
 
 Potential improvements include:
-
 * Adding sales revenue and quantity sold to measure financial performance.
 * Performing sales forecasting using time-series analysis.
 * Developing customer segmentation models.
@@ -204,23 +270,15 @@ Potential improvements include:
 * Integrating real-time retail data using SQL or cloud data sources.
 * Publishing the dashboard through the Power BI Service with automated data refresh.
 
----
-
 ## Tools Used
-
 * Power BI Desktop
 * Power Query
 * DAX (Data Analysis Expressions)
 * Microsoft Excel (CSV Dataset)
 
----
 
 ## Dashboard Features
-
 * Interactive KPI Cards
 * Business-focused Visualizations
-* Dynamic Filters and Slicers
 * Retail Performance Dashboard
 * Actionable Business Insights
-
----
